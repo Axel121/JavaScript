@@ -17,7 +17,7 @@ function objectsDiff(a, b) {
   for(var propertys in b){
     f = true;
     for(var propertys2 in a){
-      if(property == propertys2){
+      if(propertys == propertys2){
         f = false;
         break;
       }
